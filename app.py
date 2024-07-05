@@ -10,6 +10,7 @@ cnn_model = load_model('cnn_model.h5')
 vgg16_model = load_model('vgg16_model.h5')
 
 # Вибір моделі
+st.title('Класифікатор одягу')
 st.sidebar.title('Виберіть модель')
 model_type = st.sidebar.selectbox('Модель', ('CNN', 'VGG16'))
 
